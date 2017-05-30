@@ -1,0 +1,20 @@
+{
+  "name": "jorgeants.github.io",
+  "version": "1.0.0",
+  "description": "Jorge's personal site/blog",
+  "main": "index.js",
+  "repository": "https://github.com/jorgeants/jorgeants.github.io.git",
+  "author": "Jorge Antônio <jorgeants@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.18.12",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^3.0.0",
+    "jeet": "^7.1.0",
+    "kouto-swiss": "^1.1.0",
+    "rupture": "^0.6.2"
+  }
+}
