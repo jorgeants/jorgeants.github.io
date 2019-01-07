@@ -9,13 +9,20 @@
 title: Jorge Antônio da Silva
 email: contato@jorgeants.com
 description: > # this means to ignore newlines until "baseurl:"
-  Full-stack developer, trabalha com desenvolvimento para a web desde 2008.
+  Full-stack developer, trabalho com desenvolvimento para a web desde 2008.
 baseurl: ""
 url: "http://jorgeants.com"
 twitter_username: jorgeants
 github_username:  jorgeants
+linkedin_username: jorgeants
 
 # Build settings
 markdown: kramdown
 
 exclude: ['package.json', 'src', 'node_modules']
+
+defaults:
+  - scope:
+      path: "assets/images"
+    values:
+      image: true

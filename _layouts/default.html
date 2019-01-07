@@ -5,32 +5,35 @@
 
   <body>
 
-    {% include header.html %}
-
     <section class="initial">
       <div class="inner-initial">
+        <div class="profile-photo">
+          <img src="{{site.baseurl}}/assets/images/jorge-profile.jpg" alt="">
+        </div>
         <h1 class="name">{{ site.title }}</h1>
         <p class="description">{{ site.description }}</p>
       </div>
     </section>
 
-    <section class="posts">
-      
+    <!-- <section class="posts">
+
       <h2>Últimas publicações</h2>
 
       <article>
-        
+
       </article>
 
       <article>
-        
+
       </article>
 
       <article>
-        
+
       </article>
 
-    </section>
+    </section> -->
+
+    {% include about.html %}
 
     {% include footer.html %}
 

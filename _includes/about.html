@@ -1,0 +1,31 @@
+<section class="about">
+	<div class="about-inside">
+		<h2>Sobre mim</h2>
+
+		<p class="about-text">
+			Trabalho com desenvolvimento web, e suas principais tecnologias. Entre elas, adoro Ruby e Ruby on Rails, JavaScript, ReactJS, React Native, CSS e SASS. Passei por algumas empresas de programação e fui sócio de uma agência de marketing digital, onde liderava uma equipe de desenvolvimento. Hoje desenvolvo com foco em um ecossistema de startup, e sou CTO da <a target="_blank" href="http://www.eficazpay.info/">eficazPay</a>.
+		</p>
+
+		<div class="about-media">
+			<ul class="social-media-list">
+				{% if site.github_username %}
+				<li>
+					{% include icon-github.html username=site.github_username %}
+				</li>
+				{% endif %}
+
+				{% if site.twitter_username %}
+				<li>
+					{% include icon-twitter.html username=site.twitter_username %}
+				</li>
+				{% endif %}
+
+				{% if site.linkedin_username %}
+				<li>
+					{% include icon-linkedin.html username=site.linkedin_username %}
+				</li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</section>
